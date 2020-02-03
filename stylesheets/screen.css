@@ -130,3 +130,19 @@ button {
 .frog.male:after {
 	background-color: #0074D9;
 }
+
+.frog[data-weight=fat]:after {
+	width: 15px;
+}
+
+.frog[data-weight=slim]:after {
+	width: 5px;
+}
+
+.frog[data-height=short]:after {
+	height: 5px;
+}
+
+.frog[data-height=tall]:after {
+	height: 15px;
+}
